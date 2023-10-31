@@ -1,0 +1,21 @@
+.about {
+  h2 {
+    padding-top: 40px;
+  }
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0px 0 60px;
+    &-photo {
+      width: 20%;
+      border-radius: 1rem;
+    }
+    &-text {
+      width: 25%;
+      text-align: justify;
+      line-height: 2rem;
+    }
+  }
+}

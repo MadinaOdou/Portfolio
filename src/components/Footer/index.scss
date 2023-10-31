@@ -1,8 +1,11 @@
+$color-purple: #8b5cf6;
+$color-pink: #ec4899;
+
 .footer {
-  background: #1f1f1f;
+  background: linear-gradient(45deg, $color-purple, $color-pink);
   min-height: 100px;
   width: 100%;
-  padding: 30px 0 0px;
+  padding: 30px 0 15px;
   font-size: 14px;
   color: white;
   a {

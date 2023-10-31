@@ -1,0 +1,10 @@
+.header {
+  &-logo {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    z-index: 1;
+  }
+}
