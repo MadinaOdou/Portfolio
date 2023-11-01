@@ -1,21 +1,58 @@
+$color-purple: #8b5cf6;
+$color-pink: #ec4899;
+
 .about {
-  h2 {
-    padding-top: 40px;
-  }
+  padding: 50px 0;
   &-content {
-    display: flex;
     justify-content: center;
-    align-items: center;
     gap: 3rem;
     padding: 0px 0 60px;
-    &-photo {
-      width: 20%;
+    position: relative;
+    img {
+      width: 400px;
       border-radius: 1rem;
     }
-    &-text {
-      width: 25%;
+    p {
+      width: 400px;
       text-align: justify;
       line-height: 2rem;
     }
+  }
+}
+
+.button-group {
+  cursor: pointer;
+  display: inline-flex;
+  perspective: 200px;
+  perspective-origin: calc(100% - 70px);
+  margin-top: 25px;
+  margin-left: -127px;
+  &:hover .icon-cv {
+    transform: rotateY(0deg);
+  }
+
+  .text {
+    background: linear-gradient(45deg, $color-purple, $color-pink);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 70px;
+    padding: 0 25px;
+    line-height: 70px;
+  }
+
+  .icon-cv {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    box-sizing: border-box;
+    border: 4px solid $color-pink;
+    border-left: none;
+    transition: 600ms transform ease-in-out;
+    transform: rotateY(90deg);
+    transform-origin: left;
+    color: $color-pink;
+    background: #fff;
   }
 }

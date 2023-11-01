@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import "./App.scss";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Timeline from "./components/Timeline";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Timeline />
+      <Contact />
       <Footer />
     </>
   );
