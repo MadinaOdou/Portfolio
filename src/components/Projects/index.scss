@@ -2,7 +2,7 @@ $color-purple: #8b5cf6;
 $color-pink: #ec4899;
 $color-gray: #9ca3af;
 $color-black: #1f2937;
-$card-size: 23rem;
+$card-size: 30rem;
 
 * {
   box-sizing: border-box;
@@ -46,6 +46,7 @@ $card-size: 23rem;
   color: $color-gray;
   text-align: justify;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 
   h2 {
     text-align: center;

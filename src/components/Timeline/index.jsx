@@ -4,73 +4,37 @@ function Timeline() {
   return (
     <section className="timeline flex-row">
       <div>
-        <h2>Experience</h2>
+        <h2>Formations</h2>
         <ul className="timeline-vertical">
           <li>
-            <span className="timeline--date">19 Jan 1990</span>
-            <div className="timeline--circle">
-              {" "}
-              <i></i>
-            </div>
-            <div className="timeline--description">I was born in Semarang.</div>
-          </li>
-
-          <li>
-            <span className="timeline--date">8 Okt 2012</span>
+            <span className="timeline--date">2023</span>
             <div className="timeline--circle">
               {" "}
               <i></i>
             </div>
             <div className="timeline--description">
-              Graduated from university. <br /> Start work.
+              <div className="timeline-title">
+                <strong>OpenClassrooms, France</strong>
+              </div>
+              Développeur intégrateur web <br />
+              Diplôme de niveau 5 / bac+2
             </div>
           </li>
 
           <li>
-            <span className="timeline--date">28 Feb 2015</span>
+            <span className="timeline--date">2008 - 2012</span>
             <div className="timeline--circle">
               {" "}
               <i></i>
             </div>
             <div className="timeline--description">
-              Founded a startup company. <br />
-              Struggle since.
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2>Study</h2>
-        <ul className="timeline-vertical">
-          <li>
-            <span className="timeline--date">19 Jan 1990</span>
-            <div className="timeline--circle">
-              {" "}
-              <i></i>
-            </div>
-            <div className="timeline--description">I was born in Semarang.</div>
-          </li>
-
-          <li>
-            <span className="timeline--date">8 Okt 2012</span>
-            <div className="timeline--circle">
-              {" "}
-              <i></i>
-            </div>
-            <div className="timeline--description">
-              Graduated from university. <br /> Start work.
-            </div>
-          </li>
-
-          <li>
-            <span className="timeline--date">28 Feb 2015</span>
-            <div className="timeline--circle">
-              {" "}
-              <i></i>
-            </div>
-            <div className="timeline--description">
-              Founded a startup company. <br />
-              Struggle since.
+              <div className="timeline-title">
+                <strong>
+                  Université des Technologies de l'Information, Tachkent
+                </strong>
+              </div>
+              Services électroniques et informatiques <br />
+              Diplôme de niveau Master 1 / bac+4
             </div>
           </li>
         </ul>
