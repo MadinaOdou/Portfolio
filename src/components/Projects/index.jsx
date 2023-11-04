@@ -3,17 +3,26 @@ import {
   TiChevronLeftOutline,
   TiChevronRightOutline,
 } from "https://cdn.skypack.dev/react-icons/ti";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSass,
+  faReact,
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faFigma,
+  faYarn,
+  faNpm,
+  faGitAlt,
+  faNode,
+} from "@fortawesome/free-brands-svg-icons";
+import { Icon } from "@iconify/react";
+import ArgentBank from "../../assets/argent-bank.webp";
+import Card from "../Card";
 import "./index.scss";
 
 const MAX_VISIBILITY = 3;
 const TOTAL_SLIDES = 5;
-
-const Card = ({ title, content }) => (
-  <div className="card">
-    <h2>{title}</h2>
-    <p>{content}</p>
-  </div>
-);
 
 const Projects = () => {
   const [active, setActive] = useState(2);
@@ -72,8 +81,15 @@ const Projects = () => {
             }}
           >
             <Card
-              title={`Card ${index + 1}`}
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+              title="Argent Bank"
+              siteWeb="https://madinaodou.github.io/ProjetOCR_Nina_Carducci/"
+              codeGithub="https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend"
+              imgSrc={ArgentBank}
+              imgAlt="Argent Bank"
+              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              icon1={faSass}
+              icon2={faReact}
+              icon3={faNode}
             />
           </div>
         ))}
