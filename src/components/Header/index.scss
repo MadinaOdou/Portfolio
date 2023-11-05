@@ -7,4 +7,12 @@
     top: -5px;
     z-index: 1;
   }
+  &-nav {
+    gap: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 22.5em;
+    z-index: 1;
+    width: 50%;
+  }
 }

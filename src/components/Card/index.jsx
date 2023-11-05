@@ -34,11 +34,9 @@ function Card({
           </a>
         </div>
       </div>
-      {imgSrc && (
-        <div className="card-image">
-          <img src={imgSrc} alt={imgAlt} />
-        </div>
-      )}
+      <div className="card-image">
+        <img src={imgSrc} alt={imgAlt} />
+      </div>
       <p>{description}</p>
       <div className="card-technologies flex-row">
         <p>

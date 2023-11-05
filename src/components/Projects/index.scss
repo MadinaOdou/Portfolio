@@ -17,6 +17,10 @@ $card-size: 30rem;
     height: $card-size;
     perspective: 500px;
     transform-style: preserve-3d;
+    h2 {
+      padding: 20px 0 15px;
+      color: #fff;
+    }
     .arrow {
       color: white;
       font-size: 5rem;

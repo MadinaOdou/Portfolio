@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import "./index.scss";
 import Banner from "../Banner";
+import NavButton from "../NavButton";
 
 function Header() {
   return (
@@ -14,6 +15,13 @@ function Header() {
         <Icon className="header-logo" icon="line-md:github-loop" rotate={2} />
       </a>
       <Banner title={"Madina Odou"} description={"Integrateur web"} />
+      <div className="header-nav flex-row">
+        <NavButton navName={"About Me"} />
+        <NavButton navName={"Projects"} />
+        <NavButton navName={"Skills"} />
+        <NavButton navName={"Formations"} />
+        <NavButton navName={"Contact"} />
+      </div>
     </header>
   );
 }
