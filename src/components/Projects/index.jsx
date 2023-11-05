@@ -3,22 +3,8 @@ import {
   TiChevronLeftOutline,
   TiChevronRightOutline,
 } from "https://cdn.skypack.dev/react-icons/ti";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSass,
-  faReact,
-  faHtml5,
-  faCss3Alt,
-  faJs,
-  faFigma,
-  faYarn,
-  faNpm,
-  faGitAlt,
-  faNode,
-} from "@fortawesome/free-brands-svg-icons";
-import { Icon } from "@iconify/react";
-import ArgentBank from "../../assets/argent-bank.webp";
 import Card from "../Card";
+import cardData from "../../data/projects.json";
 import "./index.scss";
 
 const MAX_VISIBILITY = 3;
@@ -57,15 +43,15 @@ const Projects = () => {
   return (
     <section className="projects">
       <div
-        className="carousel"
+        className="projects-carousel"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
         <h2>Projects</h2>
-        <button className="nav left" onClick={handlePrev}>
+        <button className="arrow arrow-left" onClick={handlePrev}>
           <TiChevronLeftOutline />
         </button>
-        {[...Array(TOTAL_SLIDES)].map((_, index) => (
+        {cardData.map((data, index) => (
           <div
             key={index}
             className="card-container"
@@ -81,19 +67,17 @@ const Projects = () => {
             }}
           >
             <Card
-              title="Argent Bank"
-              siteWeb="https://madinaodou.github.io/ProjetOCR_Nina_Carducci/"
-              codeGithub="https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend"
-              imgSrc={ArgentBank}
-              imgAlt="Argent Bank"
-              content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              icon1={faSass}
-              icon2={faReact}
-              icon3={faNode}
+              title={data.title}
+              siteWeb={data.siteWeb}
+              gitHub={data.gitHub}
+              imgSrc={data.imgSrc}
+              imgAlt={data.imgAlt}
+              description={data.description}
+              usedTech={data.usedTech}
             />
           </div>
         ))}
-        <button className="nav right" onClick={handleNext}>
+        <button className="arrow arrow-right" onClick={handleNext}>
           <TiChevronRightOutline />
         </button>
       </div>

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Argent Bank",
+    "siteWeb": "https://madinaodou.github.io/ProjetOCR_Nina_Carducci/",
+    "gitHub": "https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "imgSrc": "../../assets/argent-bank.webp",
+    "imgAlt": "Capture d'écran du site Argent Bank",
+    "usedTech": "SASS / HTML / REDUX"
+  },
+  {
+    "title": "",
+    "siteWeb": "",
+    "gitHub": "",
+    "description": "",
+    "imgSrc": "",
+    "imgAlt": "",
+    "usedTech": ""
+  },
+  {
+    "title": "",
+    "siteWeb": "",
+    "gitHub": "",
+    "description": "",
+    "imgSrc": "",
+    "imgAlt": "",
+    "usedTech": ""
+  },
+  {
+    "title": "",
+    "siteWeb": "",
+    "gitHub": "",
+    "description": "",
+    "imgSrc": "",
+    "imgAlt": "",
+    "usedTech": ""
+  },
+  {
+    "title": "",
+    "siteWeb": "",
+    "gitHub": "",
+    "description": "",
+    "imgSrc": "",
+    "imgAlt": "",
+    "usedTech": ""
+  }
+]

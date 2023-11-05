@@ -5,19 +5,17 @@ import "./index.scss";
 function Card({
   title,
   siteWeb,
-  codeGithub,
-  content,
+  gitHub,
+  description,
   imgSrc,
   imgAlt,
-  icon1,
-  icon2,
-  icon3,
+  usedTech,
 }) {
   return (
     <div className="card">
       <div className="card-title flex-row">
         <h3>{title}</h3>
-        <div>
+        <div className="card-title--links">
           <a
             href={siteWeb}
             title="Visit site web"
@@ -27,7 +25,7 @@ function Card({
             <FontAwesomeIcon icon={faEye} />
           </a>
           <a
-            href={codeGithub}
+            href={gitHub}
             title="View code source on Github"
             rel="noopener noreferrer"
             target="_blank"
@@ -36,14 +34,17 @@ function Card({
           </a>
         </div>
       </div>
-      <div className="browser-mockup">
-        <img src={imgSrc} alt={imgAlt} />
-      </div>
-      <p>{content}</p>
-      <div className="tech-icons">
-        <FontAwesomeIcon icon={icon1} />
-        <FontAwesomeIcon icon={icon2} />
-        <FontAwesomeIcon icon={icon3} />
+      {imgSrc && (
+        <div className="card-image">
+          <img src={imgSrc} alt={imgAlt} />
+        </div>
+      )}
+      <p>{description}</p>
+      <div className="card-technologies flex-row">
+        <p>
+          <strong>Technologies:</strong>
+        </p>
+        {usedTech}
       </div>
     </div>
   );
