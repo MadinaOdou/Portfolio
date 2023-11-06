@@ -4,7 +4,7 @@ import {
   TiChevronRightOutline,
 } from "https://cdn.skypack.dev/react-icons/ti";
 import Card from "../Card";
-import cardData from "../../data/projects.json";
+import cardData from "../../../data/projects.json";
 import "./index.scss";
 
 const MAX_VISIBILITY = 3;
