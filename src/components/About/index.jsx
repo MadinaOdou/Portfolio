@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 import "./index.scss";
-import photo from "../../../public/assets/madina-odou.webp";
+import photo from "../../../assets/madina-odou.webp";
 
 function About() {
   return (
