@@ -16,11 +16,11 @@ function Header() {
       </a>
       <Banner title={"Madina Odou"} description={"Integrateur web"} />
       <div className="header-nav flex-row">
-        <NavButton navName={"About Me"} />
-        <NavButton navName={"Projects"} />
-        <NavButton navName={"Skills"} />
-        <NavButton navName={"Formations"} />
-        <NavButton navName={"Contact"} />
+        <NavButton navLink={"#aboutme"} navName={"About Me"} />
+        <NavButton navLink={"#projects"} navName={"Projects"} />
+        <NavButton navLink={"#skills"} navName={"Skills"} />
+        <NavButton navLink={"#formations"} navName={"Formations"} />
+        <NavButton navLink={"#contact"} navName={"Contact"} />
       </div>
     </header>
   );

@@ -2,7 +2,7 @@ import "./index.scss";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <h2>Contact me</h2>
       <div className="contact-form">
         <form className="flex-column">

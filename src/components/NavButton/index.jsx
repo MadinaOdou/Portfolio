@@ -1,8 +1,8 @@
 import "./index.scss";
 
-function NavButton({ navName }) {
+function NavButton({ navLink, navName }) {
   return (
-    <a href="" className="nav-button">
+    <a href={navLink} className="nav-button">
       {navName}
     </a>
   );

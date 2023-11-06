@@ -16,7 +16,7 @@ import "./index.scss";
 
 function Skills() {
   return (
-    <section className="skills flex-row">
+    <section id="skills" className="skills flex-row">
       <div>
         <h2>Hard Skills</h2>
         <div className="skills-icons flex-row">

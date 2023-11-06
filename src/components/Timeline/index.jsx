@@ -2,7 +2,7 @@ import "./index.scss";
 
 function Timeline() {
   return (
-    <section className="timeline flex-row">
+    <section id="formations" className="timeline flex-row">
       <div>
         <h2>Formations</h2>
         <ul className="timeline-vertical">

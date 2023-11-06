@@ -1,14 +1,5 @@
 [
   {
-    "title": "Argent Bank",
-    "siteWeb": "https://madinaodou.github.io/ProjetOCR_Nina_Carducci/",
-    "gitHub": "https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../../assets/argent-bank.webp",
-    "imgAlt": "Capture d'écran du site Argent Bank",
-    "usedTech": "SASS / HTML / REDUX"
-  },
-  {
     "title": "Kasa",
     "siteWeb": "https://kasa-france.netlify.app/",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Kasa",
@@ -18,22 +9,31 @@
     "usedTech": "SASS / REACT / REACT ROUTER"
   },
   {
-    "title": "",
+    "title": "Argent Bank",
     "siteWeb": "",
-    "gitHub": "",
-    "description": "",
-    "imgSrc": "",
-    "imgAlt": "",
-    "usedTech": ""
+    "gitHub": "https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "imgSrc": "../../../assets/argent-bank.webp",
+    "imgAlt": "Capture d'écran du site Argent Bank",
+    "usedTech": "API REST / REACT / REDUX"
   },
   {
-    "title": "",
-    "siteWeb": "",
-    "gitHub": "",
-    "description": "",
-    "imgSrc": "",
-    "imgAlt": "",
-    "usedTech": ""
+    "title": "77 events",
+    "siteWeb": "https://event-agency.netlify.app/",
+    "gitHub": "https://github.com/MadinaOdou/OCR_77_events",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "imgSrc": "../../../assets/event-agency.webp",
+    "imgAlt": "Capture d'écran du site 77 events",
+    "usedTech": "NODE JS / YARN / BDD / TDD"
+  },
+  {
+    "title": "Nina Carducci",
+    "siteWeb": "https://madinaodou.github.io/ProjetOCR_Nina_Carducci/",
+    "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Nina_Carducci",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "imgSrc": "../../../assets/nina-carducci.webp",
+    "imgAlt": "Capture d'écran du site Nina Carducci",
+    "usedTech": "HTML / SEO / LIGHTHOUSE"
   },
   {
     "title": "Ohmyfood",

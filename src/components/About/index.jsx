@@ -5,7 +5,7 @@ import photo from "../../../assets/madina-odou.webp";
 
 function About() {
   return (
-    <section className="about">
+    <section id="aboutme" className="about">
       <h2>About me</h2>
       <div className="about-content">
         <div className="about-content-div flex-row">
