@@ -11,8 +11,8 @@
     gap: 20px;
     position: absolute;
     bottom: 100px;
-    left: 22.5em;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
-    width: 50%;
   }
 }

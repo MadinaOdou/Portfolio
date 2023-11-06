@@ -3,19 +3,23 @@ $color-pink: #ec4899;
 
 .about {
   padding: 50px 0;
+  width: 100%;
   &-content {
-    justify-content: center;
-    gap: 3rem;
-    padding: 0px 0 60px;
     position: relative;
-    img {
-      width: 400px;
-      border-radius: 1rem;
-    }
-    p {
-      width: 400px;
-      text-align: justify;
-      line-height: 2rem;
+    &-div {
+      justify-content: center;
+      gap: 3rem;
+      padding: 0px 0 60px;
+      img {
+        width: 30%;
+        height: 30%;
+        border-radius: 1rem;
+      }
+      p {
+        width: 30%;
+        text-align: justify;
+        line-height: 2rem;
+      }
     }
   }
 }
@@ -25,13 +29,14 @@ $color-pink: #ec4899;
   display: inline-flex;
   perspective: 200px;
   perspective-origin: calc(100% - 70px);
-  margin-top: 25px;
-  margin-left: -127px;
-  &:hover .icon-cv {
+  position: absolute;
+  right: 29%;
+  bottom: 120px;
+  &:hover .button-group--icon {
     transform: rotateY(0deg);
   }
 
-  .text {
+  &--text {
     background: linear-gradient(45deg, $color-purple, $color-pink);
     color: #fff;
     text-transform: uppercase;
@@ -41,7 +46,7 @@ $color-pink: #ec4899;
     line-height: 70px;
   }
 
-  .icon-cv {
+  &--icon {
     font-size: 30px;
     width: 70px;
     height: 70px;

@@ -5,7 +5,6 @@ import {
 } from "https://cdn.skypack.dev/react-icons/ti";
 import Card from "../Card";
 import cardData from "../../data/projects.json";
-import Screen from "../../assets/argent-bank.webp";
 import "./index.scss";
 
 const MAX_VISIBILITY = 3;
@@ -71,7 +70,7 @@ const Projects = () => {
               title={data.title}
               siteWeb={data.siteWeb}
               gitHub={data.gitHub}
-              imgSrc={Screen}
+              imgSrc={data.imgSrc}
               imgAlt={data.imgAlt}
               description={data.description}
               usedTech={data.usedTech}

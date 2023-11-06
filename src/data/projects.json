@@ -4,18 +4,18 @@
     "siteWeb": "https://madinaodou.github.io/ProjetOCR_Nina_Carducci/",
     "gitHub": "https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../assets/argent-bank.webp",
+    "imgSrc": "../../../public/assets/argent-bank.webp",
     "imgAlt": "Capture d'écran du site Argent Bank",
     "usedTech": "SASS / HTML / REDUX"
   },
   {
-    "title": "",
-    "siteWeb": "",
-    "gitHub": "",
-    "description": "",
-    "imgSrc": "",
-    "imgAlt": "",
-    "usedTech": ""
+    "title": "Kasa",
+    "siteWeb": "https://kasa-france.netlify.app/",
+    "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Kasa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "imgSrc": "../../../public/assets/kasa.webp",
+    "imgAlt": "Capture d'écran du site Kasa",
+    "usedTech": "SASS / REACT / REACT ROUTER"
   },
   {
     "title": "",
@@ -36,12 +36,12 @@
     "usedTech": ""
   },
   {
-    "title": "",
-    "siteWeb": "",
-    "gitHub": "",
-    "description": "",
-    "imgSrc": "",
-    "imgAlt": "",
-    "usedTech": ""
+    "title": "Ohmyfood",
+    "siteWeb": "https://madinaodou.github.io/ProjetOCR_Ohmyfood/index.html",
+    "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Ohmyfood",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "imgSrc": "../../../public/assets/ohmyfood.webp",
+    "imgAlt": "Capture d'écran du site Ohmyfood",
+    "usedTech": "HTML / CSS / SASS"
   }
 ]
