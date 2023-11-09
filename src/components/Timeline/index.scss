@@ -6,6 +6,7 @@
   padding: 50px 0;
   background: linear-gradient(45deg, $color-purple, $color-pink);
   text-align: left;
+  color: $color-black;
   h2 {
     color: white;
     text-align: center;
@@ -18,7 +19,7 @@
 
 .timeline--date {
   flex: 0 0 150px;
-  color: black;
+  color: $color-black;
   font-size: 90%;
   text-align: right;
   margin-right: 50px;

@@ -29,9 +29,9 @@ function Banner({ title, description }) {
         </div>
       </div>
       <div className="banner-nav flex-row">
-        <NavButton navLink={"#aboutme"} navName={"About Me"} />
-        <NavButton navLink={"#projects"} navName={"Projects"} />
-        <NavButton navLink={"#skills"} navName={"Skills"} />
+        <NavButton navLink={"#aboutme"} navName={"à propos"} />
+        <NavButton navLink={"#projects"} navName={"Projets"} />
+        <NavButton navLink={"#skills"} navName={"Compétences"} />
         <NavButton navLink={"#formations"} navName={"Formations"} />
         <NavButton navLink={"#contact"} navName={"Contact"} />
       </div>

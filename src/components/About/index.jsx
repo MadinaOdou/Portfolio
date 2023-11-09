@@ -2,29 +2,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 import "./index.scss";
 import photo from "../../../assets/madina-odou.webp";
+import myCV from "../../../public/CV_Madina_Odou.pdf";
 
 function About() {
   return (
     <section id="aboutme" className="about">
-      <h2>About me</h2>
+      <h2>À propos</h2>
       <div className="about-content">
         <div className="about-content-div flex-row">
           <img src={photo} alt="Photo de Madina Odou" />
           <p>
-            Software Engineer who loves to transform ideas into reality using
-            code. With over three years of developing web applications using the
-            latest front-end and UI/UX technologies and full-fledged APIs.
-            Motivated designer and developer with experience creating custom
-            websites with ReactJs, Node, Express, Mongo, and PostgreSQL.
+            Après une formation initiale technique et une première carrière dans
+            les relations publiques et les réseaux sociaux, j'ai choisi
+            d'approfondir mes compétences techniques et de m'orienter vers le
+            développement web. Actuellement disponible et ravie d'échanger dès à
+            présent avec vous !
           </p>
         </div>
         <div className="button-group">
-          <div className="button-group--text">Download CV</div>
+          <div className="button-group--text">Voir mon CV</div>
           <a
             className="button-group--icon"
             title="Download Resume"
-            href=""
-            download
+            href={myCV}
+            download="CV_Madina_Odou.pdf"
           >
             <FontAwesomeIcon icon={faCircleDown} aria-hidden="true" />
           </a>

@@ -47,7 +47,7 @@ const Projects = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <h2>Projects</h2>
+        <h2>Mes projets</h2>
         <button className="arrow arrow-left" onClick={handlePrev}>
           <TiChevronLeftOutline />
         </button>

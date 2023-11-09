@@ -14,9 +14,9 @@
     flex-wrap: wrap;
     row-gap: 3em;
     column-gap: 2em;
-    color: #333;
+    color: $color-black;
     div {
-      border: 3px solid #333;
+      border: 3px solid $color-black;
       width: 80px;
       height: 80px;
       border-radius: 1rem;
@@ -47,11 +47,11 @@
     flex-wrap: wrap;
     column-gap: 1.8rem;
     p {
-      border: 2px #333 solid;
+      border: 2px $color-black solid;
       border-radius: 0.3rem;
       padding: 3px 5px;
       transition: ease-in-out 0.5s;
-      color: #333;
+      color: $color-black;
       cursor: pointer;
       &:hover {
         transform: scale(1.2);

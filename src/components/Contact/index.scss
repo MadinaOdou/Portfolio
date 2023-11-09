@@ -1,28 +1,99 @@
+@import "../../utils/variables.scss";
+
 .contact {
-  margin-bottom: 80px;
+  margin: 60px 0 80px;
   &-form {
     margin: 0 auto;
     width: 30%;
-    border: 1px black solid;
+    height: 30%;
+    border: 2px $color-pink solid;
     border-radius: 1rem;
     form {
       margin: 40px auto;
       gap: 50px;
-      width: 70%;
+      width: 65%;
       input {
         padding: 10px;
         border: none;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $color-gray;
       }
       textarea {
         padding: 10px;
         border: none;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $color-gray;
       }
-      button {
-        padding: 10px;
-        border-radius: 0.3rem;
-        text-transform: uppercase;
+    }
+  }
+}
+
+.contact-form {
+  display: flex;
+
+  &--btn {
+    padding: 10px;
+    border-radius: 0.3rem;
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+      width: 0%;
+      height: 0%;
+      content: "";
+      position: absolute;
+      border-radius: 100%;
+    }
+
+    &:after {
+      transition: all 0.5s ease;
+      background-color: white;
+    }
+
+    &:before {
+      transition: all 0.5s ease-out;
+      background: linear-gradient(45deg, $color-purple, $color-pink);
+    }
+
+    .fa-paper-plane {
+      z-index: 1;
+      transition: all 0.3s ease-out;
+      font-size: 20px;
+    }
+
+    &.contact-form--btn {
+      background: linear-gradient(45deg, $color-purple, $color-pink);
+    }
+
+    &:hover {
+      &.contact-form--btn {
+        color: $color-pink;
+        border: solid 2px $color-pink;
+      }
+      &:after,
+      &:before {
+        width: 300px;
+        height: 300px;
+        border-radius: 4px;
+      }
+      &:after {
+        transition: all 0.7s ease-in;
+      }
+
+      &:before {
+        transition: all 0.5s ease-in;
       }
     }
   }

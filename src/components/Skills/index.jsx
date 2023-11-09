@@ -80,7 +80,7 @@ function Skills() {
           <p>GESTION DE PROJET AGILE</p>
           <p>ATTITUDE POSITIVE</p>
           <p>CURIOSITÉ</p>
-          <p>FLÉXIBILITÉ ET ADAPTABILITÉ</p>
+          <p>FLEXIBILITÉ ET ADAPTABILITÉ</p>
           <p>VOLONTÉ DE CONTINUER À SE FORMER</p>
         </div>
       </div>
