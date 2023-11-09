@@ -1,3 +1,4 @@
+import NavButton from "../NavButton";
 import "./index.scss";
 
 function Banner({ title, description }) {
@@ -11,12 +12,30 @@ function Banner({ title, description }) {
     Math.floor(Math.random() * (max - min + 1) + min);
 
   return (
-    <div className="intro">
-      <div className="quote">
+    <div className="banner">
+      <div className="banner-text">
         <h1>{title}</h1>
         <p>{description}</p>
+        <div className="flip">
+          <div>
+            <div>Développeuse Front-end</div>
+          </div>
+          <div>
+            <div>Intégratrice Web</div>
+          </div>
+          <div>
+            <div>Développeuse React</div>
+          </div>
+        </div>
       </div>
-      <div className="squares-wrapper">
+      <div className="banner-nav flex-row">
+        <NavButton navLink={"#aboutme"} navName={"About Me"} />
+        <NavButton navLink={"#projects"} navName={"Projects"} />
+        <NavButton navLink={"#skills"} navName={"Skills"} />
+        <NavButton navLink={"#formations"} navName={"Formations"} />
+        <NavButton navLink={"#contact"} navName={"Contact"} />
+      </div>
+      <div className="banner-wrapper">
         <ul className="squares">
           {squares.map((el, i) => {
             const randomDimensions = Math.floor(
@@ -43,7 +62,7 @@ function Banner({ title, description }) {
           })}
         </ul>
       </div>
-      <div className="image-overlay" />
+      <div className="banner-overlay" />
     </div>
   );
 }

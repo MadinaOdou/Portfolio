@@ -1,5 +1,4 @@
-$color-purple: #8b5cf6;
-$color-pink: #ec4899;
+@import "../../utils/variables.scss";
 
 .footer {
   background: linear-gradient(45deg, $color-purple, $color-pink);
