@@ -5,32 +5,31 @@
   width: 100%;
   &-content {
     position: relative;
-    &-div {
-      justify-content: center;
-      gap: 3rem;
-      padding: 0px 0 60px;
-      img {
-        width: 30%;
-        height: 30%;
-        border-radius: 1rem;
-      }
-      p {
-        width: 30%;
-        text-align: justify;
-        line-height: 2rem;
-      }
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 60px;
+    width: 60%;
+    img {
+      width: 400px;
+      height: 400px;
+      border-radius: 1rem;
+    }
+    p {
+      text-align: justify;
+      line-height: 2rem;
     }
   }
 }
 
 .button-group {
   cursor: pointer;
-  display: inline-flex;
+  display: flex;
   perspective: 200px;
+  width: max-content;
   perspective-origin: calc(100% - 70px);
-  position: absolute;
-  right: 29%;
-  bottom: 120px;
   &:hover .button-group--icon {
     transform: rotateY(0deg);
   }

@@ -15,7 +15,10 @@ function Banner({ title, description }) {
     <div className="banner">
       <div className="banner-text">
         <h1>{title}</h1>
-        <p>{description}</p>
+        <div className="flex-row banner-text--emoji">
+          <span className="emoji wave" role="img" aria-label="hand wave"></span>
+          <p>{description}</p>
+        </div>
         <div className="flip">
           <div>
             <div>Développeuse Front-end</div>

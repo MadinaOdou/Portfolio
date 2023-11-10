@@ -8,9 +8,9 @@ function About() {
   return (
     <section id="aboutme" className="about">
       <h2>À propos</h2>
-      <div className="about-content">
-        <div className="about-content-div flex-row">
-          <img src={photo} alt="Photo de Madina Odou" />
+      <div className="about-content flex-row">
+        <img src={photo} alt="Photo de Madina Odou" />
+        <div>
           <p>
             Après une formation initiale technique et une première carrière dans
             les relations publiques et les réseaux sociaux, j'ai choisi
@@ -18,17 +18,17 @@ function About() {
             développement web. Actuellement disponible et ravie d'échanger dès à
             présent avec vous !
           </p>
-        </div>
-        <div className="button-group">
-          <div className="button-group--text">Voir mon CV</div>
-          <a
-            className="button-group--icon"
-            title="Download Resume"
-            href={myCV}
-            download="CV_Madina_Odou.pdf"
-          >
-            <FontAwesomeIcon icon={faCircleDown} aria-hidden="true" />
-          </a>
+          <div className="button-group">
+            <div className="button-group--text">Voir mon CV</div>
+            <a
+              className="button-group--icon"
+              title="Download Resume"
+              href={myCV}
+              download="CV_Madina_Odou.pdf"
+            >
+              <FontAwesomeIcon icon={faCircleDown} aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

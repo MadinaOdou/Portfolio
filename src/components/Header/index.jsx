@@ -13,7 +13,7 @@ function Header() {
       >
         <Icon className="header-logo" icon="line-md:github-loop" rotate={2} />
       </a>
-      <Banner title={"Madina Odou"} description={"👋 Hello, je suis ..."} />
+      <Banner title={"Madina Odou"} description={"Hello, je suis ..."} />
     </header>
   );
 }

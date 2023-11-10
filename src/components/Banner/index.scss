@@ -29,6 +29,21 @@
         font-size: 3rem;
       }
     }
+    &--emoji {
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      .emoji::after {
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      .wave::after {
+        content: "✋";
+        --emoji: "👋";
+        animation-name: twoFrames;
+        animation-duration: 1s;
+      }
+    }
   }
   &-nav {
     gap: 20px;
@@ -90,6 +105,12 @@
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;
+  }
+}
+
+@keyframes twoFrames {
+  50% {
+    content: var(--emoji);
   }
 }
 
