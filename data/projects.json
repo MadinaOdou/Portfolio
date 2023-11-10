@@ -4,7 +4,7 @@
     "siteWeb": "https://kasa-france.netlify.app/",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Kasa",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../../public/images/kasa.webp",
+    "imgSrc": "/images/kasa.webp",
     "imgAlt": "Capture d'écran du site Kasa",
     "usedTech": "SASS / REACT / REACT ROUTER"
   },
@@ -13,7 +13,7 @@
     "siteWeb": "",
     "gitHub": "https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../../public/images/argent-bank.webp",
+    "imgSrc": "/images/argent-bank.webp",
     "imgAlt": "Capture d'écran du site Argent Bank",
     "usedTech": "API REST / REACT / REDUX"
   },
@@ -22,7 +22,7 @@
     "siteWeb": "https://event-agency.netlify.app/",
     "gitHub": "https://github.com/MadinaOdou/OCR_77_events",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../../public/images/event-agency.webp",
+    "imgSrc": "/images/event-agency.webp",
     "imgAlt": "Capture d'écran du site 77 events",
     "usedTech": "NODE JS / YARN / BDD / TDD"
   },
@@ -31,7 +31,7 @@
     "siteWeb": "https://madinaodou.github.io/ProjetOCR_Nina_Carducci/",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Nina_Carducci",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../../public/images/nina-carducci.webp",
+    "imgSrc": "/images/nina-carducci.webp",
     "imgAlt": "Capture d'écran du site Nina Carducci",
     "usedTech": "HTML / SEO / LIGHTHOUSE"
   },
@@ -40,7 +40,7 @@
     "siteWeb": "https://madinaodou.github.io/ProjetOCR_Ohmyfood/index.html",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Ohmyfood",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
-    "imgSrc": "../../../public/images/ohmyfood.webp",
+    "imgSrc": "/images/ohmyfood.webp",
     "imgAlt": "Capture d'écran du site Ohmyfood",
     "usedTech": "HTML / CSS / SASS"
   }
