@@ -9,14 +9,23 @@
   color: $color-gray;
   text-align: justify;
   transition: all 0.3s ease-out;
+  @media (max-width: $mobile) {
+    padding: 0.2rem 1rem;
+  }
   p {
     margin: 0.7rem 0 0;
+    @media (max-width: $mobile) {
+      font-size: 10px;
+    }
   }
   &-title {
     align-items: center;
     justify-content: space-between;
     h3 {
       text-transform: uppercase;
+      @media (max-width: $mobile) {
+        font-size: 10px;
+      }
     }
     &--links {
       display: flex;
@@ -25,6 +34,9 @@
         font-size: 20px;
         color: $color-gray;
         transition: all ease-in-out 0.5s;
+        @media (max-width: $mobile) {
+          font-size: 10px;
+        }
         &:hover {
           color: $color-pink;
           transform: scale(1.3);
@@ -41,6 +53,9 @@
     img {
       width: 100%;
       height: 230px;
+      @media (max-width: $mobile) {
+        height: 160px;
+      }
     }
     &:before {
       display: block;
@@ -59,8 +74,20 @@
     justify-content: space-between;
     align-items: center;
     font-size: 15px;
+    @media (max-width: $mobile) {
+      font-size: 9px;
+    }
     p {
       padding-bottom: 11px;
+      @media (max-width: $mobile) {
+        padding-bottom: 5px;
+      }
+    }
+    span {
+      padding-top: 2px;
+      @media (max-width: $mobile) {
+        padding-top: 7px;
+      }
     }
   }
 }

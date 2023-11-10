@@ -14,6 +14,9 @@
   li {
     display: flex;
     line-height: 1.5;
+    @media (max-width: $mobile) {
+      width: 90%;
+    }
   }
 }
 
@@ -23,12 +26,20 @@
   font-size: 90%;
   text-align: right;
   margin-right: 50px;
+  @media (max-width: $mobile) {
+    flex: 0;
+    font-size: 10px;
+    margin-right: 0;
+  }
 }
 
 .timeline--circle {
   flex: 0 0 50px;
   position: relative;
   text-align: center;
+  @media (max-width: $mobile) {
+    flex: 0 0 36px;
+  }
 
   /*For vertical line*/
   &:before {
@@ -57,11 +68,19 @@
 
 .timeline-title {
   padding-bottom: 10px;
+  @media (max-width: $mobile) {
+    font-size: 12px;
+    padding-bottom: 7px;
+  }
 }
 
 .timeline--description {
   margin-left: 50px;
   padding-bottom: 100px;
+  @media (max-width: $mobile) {
+    font-size: 12px;
+    margin-left: 30px;
+  }
 }
 
 /*For the first timeline item*/
@@ -112,7 +131,6 @@
   }
 }
 
-/*Now let us start do the hover effects*/
 .timeline li:hover {
   .timeline--date {
     color: white;

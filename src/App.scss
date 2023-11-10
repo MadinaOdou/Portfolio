@@ -17,6 +17,10 @@ h2 {
   font-size: 30px;
   padding-bottom: 40px;
   color: $color-black;
+  @media (max-width: $mobile) {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
 }
 
 .flex-row {

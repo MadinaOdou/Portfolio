@@ -3,7 +3,7 @@
     "title": "Kasa",
     "siteWeb": "https://kasa-france.netlify.app/",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Kasa",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "description": "Intégration du design d'une application web de location immobilière, gestion du routage, configuration des appels vers l'API du back-end",
     "imgSrc": "/images/kasa.webp",
     "imgAlt": "Capture d'écran du site Kasa",
     "usedTech": "SASS / REACT / REACT ROUTER"

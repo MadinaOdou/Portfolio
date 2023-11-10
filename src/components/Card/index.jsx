@@ -42,7 +42,7 @@ function Card({
         <p>
           <strong>Technologies:</strong>
         </p>
-        {usedTech}
+        <span>{usedTech}</span>
       </div>
     </div>
   );

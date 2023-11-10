@@ -8,7 +8,7 @@ function About() {
   return (
     <section id="aboutme" className="about">
       <h2>À propos</h2>
-      <div className="about-content flex-row">
+      <div className="about-content">
         <img src={photo} alt="Photo de Madina Odou" />
         <div>
           <p>

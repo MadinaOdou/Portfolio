@@ -2,13 +2,13 @@
 
 .banner {
   position: relative;
-  height: 65vh;
+  height: 100vh;
   text-align: center;
   color: #fff;
 
   // >512
-  @media (min-width: $mobile-large) {
-    height: 100vh;
+  @media (max-width: $mobile) {
+    height: 85vh;
   }
   &-text {
     position: absolute;
@@ -19,6 +19,10 @@
     overflow: hidden;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
     z-index: 1;
+    @media (max-width: $mobile) {
+      font-size: 120%;
+      top: 40%;
+    }
 
     h1 {
       margin-top: 0;
@@ -49,10 +53,18 @@
     gap: 20px;
     position: absolute;
     left: 50%;
-    bottom: 20%;
+    bottom: 18%;
     transform: translateX(-50%);
     z-index: 1;
     font-size: 13px;
+    @media (max-width: $mobile) {
+      flex-wrap: wrap;
+      justify-content: center;
+      bottom: 15%;
+      gap: 10px;
+      width: 70%;
+      font-size: 9px;
+    }
   }
   &-wrapper {
     background: #4e54c8;
@@ -128,6 +140,9 @@
 
   & div:first-child {
     animation: show 5s linear infinite;
+    @media (max-width: $mobile) {
+      animation: none;
+    }
   }
 }
 
