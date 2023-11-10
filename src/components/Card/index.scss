@@ -79,15 +79,9 @@
     }
     p {
       padding-bottom: 11px;
-      @media (max-width: $mobile) {
-        padding-bottom: 5px;
-      }
     }
     span {
       padding-top: 2px;
-      @media (max-width: $mobile) {
-        padding-top: 7px;
-      }
     }
   }
 }
