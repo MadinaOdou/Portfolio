@@ -3,6 +3,9 @@
 .about {
   padding: 50px 0;
   width: 100%;
+  @media (max-width: $mobile) {
+    padding: 20px 0;
+  }
   &-content {
     display: flex;
     flex-direction: row;
@@ -20,6 +23,7 @@
       position: inherit;
       transform: none;
       width: 95%;
+      padding-bottom: 20px;
     }
     img {
       width: 400px;
@@ -33,6 +37,11 @@
     p {
       text-align: justify;
       line-height: 2rem;
+      @media (max-width: $mobile) {
+        width: 83%;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
     }
   }
 }
@@ -45,12 +54,12 @@
   perspective-origin: calc(100% - 70px);
   &:hover .button-group--icon {
     transform: rotateY(0deg);
-    @media (max-width: $mobile) {
-      margin: 0 auto;
-    }
   }
   @media (max-width: $mobile) {
     margin: 20px auto 0 25%;
+  }
+  &:hover {
+    transform: translateX(-13%);
   }
 
   &--text {

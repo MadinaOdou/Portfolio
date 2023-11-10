@@ -8,13 +8,13 @@
 
   // >512
   @media (max-width: $mobile) {
-    height: 85vh;
+    height: 65vh;
   }
   &-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -100%);
     font-size: 200%;
     overflow: hidden;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -37,6 +37,12 @@
       justify-content: center;
       align-items: center;
       gap: 5px;
+      span,
+      p {
+        @media (max-width: $mobile) {
+          display: none;
+        }
+      }
       .emoji::after {
         animation-timing-function: linear;
         animation-iteration-count: infinite;
