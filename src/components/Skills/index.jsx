@@ -77,7 +77,7 @@ function Skills() {
           <p>AUTONOMIE</p>
           <p>TRAVAIL EN ÉQUIPE</p>
           <p>RESPONSABILITÉ</p>
-          <p>GESTION DE PROJET AGILE</p>
+          <p>GESTION DE PROJETS AGILES</p>
           <p>ATTITUDE POSITIVE</p>
           <p>CURIOSITÉ</p>
           <p>FLEXIBILITÉ ET ADAPTABILITÉ</p>
