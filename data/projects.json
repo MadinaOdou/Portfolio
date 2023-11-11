@@ -3,7 +3,7 @@
     "title": "Kasa",
     "siteWeb": "https://kasa-france.netlify.app/",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Kasa",
-    "description": "Intégration du design d'une application web de location immobilière, gestion du routage, configuration des appels vers l'API du back-end",
+    "description": "Plate-forme web de location d'appartements entre particuliers. Refonte de la partie front-end de l'application web avec une stack JS.",
     "imgSrc": "/images/kasa.webp",
     "imgAlt": "Capture d'écran du site Kasa",
     "usedTech": "SASS / REACT / REACT ROUTER"
@@ -12,7 +12,7 @@
     "title": "Argent Bank",
     "siteWeb": "",
     "gitHub": "https://github.com/MadinaOdou/OCR_projet_ArgentBank/tree/main/Frontend",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "description": "Implémentation du front-end d'une application bancaire (authentification des utilisateurs, gestions des transactions, etc).",
     "imgSrc": "/images/argent-bank.webp",
     "imgAlt": "Capture d'écran du site Argent Bank",
     "usedTech": "API REST / REACT / REDUX"
@@ -21,7 +21,7 @@
     "title": "77 events",
     "siteWeb": "https://event-agency.netlify.app/",
     "gitHub": "https://github.com/MadinaOdou/OCR_77_events",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "description": "Diagnostic et débuggage du site web d'une agence évènementielle (tests unitaires et tests fonctionnels).",
     "imgSrc": "/images/event-agency.webp",
     "imgAlt": "Capture d'écran du site 77 events",
     "usedTech": "NODE JS / YARN / BDD / TDD"
@@ -30,7 +30,7 @@
     "title": "Nina Carducci",
     "siteWeb": "https://madinaodou.github.io/ProjetOCR_Nina_Carducci/",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Nina_Carducci",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "description": "Optimisation du référencement du site web d'une photographe professionnelle (audit SEO et optimisation images, code et structure.",
     "imgSrc": "/images/nina-carducci.webp",
     "imgAlt": "Capture d'écran du site Nina Carducci",
     "usedTech": "HTML / SEO / LIGHTHOUSE"
@@ -39,7 +39,7 @@
     "title": "Ohmyfood",
     "siteWeb": "https://madinaodou.github.io/ProjetOCR_Ohmyfood/index.html",
     "gitHub": "https://github.com/MadinaOdou/ProjetOCR_Ohmyfood",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+    "description": "Développement d'une application responsive et mobile-first pour une startup dans la restauration (mobile, tablette, desktop).",
     "imgSrc": "/images/ohmyfood.webp",
     "imgAlt": "Capture d'écran du site Ohmyfood",
     "usedTech": "HTML / CSS / SASS"
