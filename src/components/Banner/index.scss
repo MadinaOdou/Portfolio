@@ -6,8 +6,11 @@
   text-align: center;
   color: #fff;
 
-  @media (max-width: $mobile) {
+  @media (min-width: $small) and (max-width: $mobile) {
     height: 65vh;
+  }
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    height: 50vh;
   }
   &-text {
     position: absolute;
@@ -25,10 +28,11 @@
 
     h1 {
       margin-top: 0;
-      font-size: 1.5rem;
+      font-size: 3rem;
 
-      @media (max-width: $mobile) {
+      @media (min-width: $small) and (max-width: $tablet) {
         margin-bottom: 0;
+        font-size: 1.5rem;
       }
     }
     &--emoji {
@@ -128,6 +132,9 @@
   height: 50px;
   overflow: hidden;
   text-transform: uppercase;
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    height: 80px;
+  }
   & > div > div {
     color: #fff;
     padding: 4px 12px;

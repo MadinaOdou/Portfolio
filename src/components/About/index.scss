@@ -25,6 +25,10 @@
       width: 95%;
       padding-bottom: 20px;
     }
+    @media (min-width: $mobile) and (max-width: $tablet) {
+      gap: 2rem;
+      width: 85%;
+    }
     img {
       width: 400px;
       height: 400px;
@@ -41,6 +45,9 @@
         width: 83%;
         margin: 0 auto;
         padding-top: 20px;
+      }
+      @media (min-width: $mobile) and (max-width: $tablet) {
+        line-height: 1.3rem;
       }
     }
   }

@@ -8,12 +8,13 @@
   &-form {
     margin: 0 auto;
     width: 30%;
-    height: 30%;
     border: 2px $color-pink solid;
     border-radius: 1rem;
     @media (max-width: $mobile) {
       width: 85%;
-      height: 85%;
+    }
+    @media (min-width: $mobile) and (max-width: $tablet) {
+      width: 60%;
     }
     form {
       margin: 40px auto;
@@ -23,6 +24,9 @@
         margin: 20px auto;
         gap: 30px;
         width: 75%;
+      }
+      @media (min-width: $mobile) and (max-width: $tablet) {
+        gap: 60px;
       }
       input {
         padding: 10px;
