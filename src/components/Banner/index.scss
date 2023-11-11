@@ -6,7 +6,6 @@
   text-align: center;
   color: #fff;
 
-  // >512
   @media (max-width: $mobile) {
     height: 65vh;
   }
@@ -28,21 +27,14 @@
       margin-top: 0;
       font-size: 1.5rem;
 
-      // >768
-      @media (min-width: $tablet) {
-        font-size: 3rem;
+      @media (max-width: $mobile) {
+        margin-bottom: 0;
       }
     }
     &--emoji {
       justify-content: center;
       align-items: center;
       gap: 5px;
-      span,
-      p {
-        @media (max-width: $mobile) {
-          display: none;
-        }
-      }
       .emoji::after {
         animation-timing-function: linear;
         animation-iteration-count: infinite;
@@ -142,13 +134,13 @@
     height: 45px;
     margin-bottom: 50px;
     display: inline-block;
+    @media (max-width: $mobile) {
+      height: 35px;
+    }
   }
 
   & div:first-child {
     animation: show 5s linear infinite;
-    @media (max-width: $mobile) {
-      animation: none;
-    }
   }
 }
 

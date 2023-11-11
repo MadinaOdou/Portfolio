@@ -24,10 +24,10 @@ function Banner({ title, description }) {
             <div>Développeuse Front-end</div>
           </div>
           <div>
-            <div>Intégratrice Web</div>
+            <div>Développeuse React</div>
           </div>
           <div>
-            <div>Développeuse React</div>
+            <div>Intégratrice Web</div>
           </div>
         </div>
       </div>
