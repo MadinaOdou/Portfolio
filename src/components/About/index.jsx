@@ -22,7 +22,7 @@ function About() {
             <div className="button-group--text">Voir mon CV</div>
             <a
               className="button-group--icon"
-              title="Download Resume"
+              title="Télécharger le CV"
               href={myCV}
               download="CV_Madina_Odou.pdf"
             >

@@ -18,7 +18,7 @@ function Card({
         <div className="card-title--links">
           <a
             href={siteWeb}
-            title="Visit site web"
+            title="Visiter le site web"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -26,7 +26,7 @@ function Card({
           </a>
           <a
             href={gitHub}
-            title="View code source on Github"
+            title="Voir le code source sur GitHub"
             rel="noopener noreferrer"
             target="_blank"
           >

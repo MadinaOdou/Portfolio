@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <a
-        title="View code source on Github"
+        title="Voir le code source sur GitHub"
         rel="noopener noreferrer"
         target="_blank"
         href="https://github.com/MadinaOdou/Portfolio"
